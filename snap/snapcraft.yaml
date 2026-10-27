@@ -80,7 +80,7 @@ parts:
       - -*
 
   ghostty:
-    source: https://github.com/ghostty-org/ghostty/releases/download/tip/ghostty-source.tar.gz
+    source: https://github.com/ghostty-org/ghostty/releases/download/v1.4.0/ghostty-source.tar.gz
     after: [zig, ncurses]
     plugin: nil
     build-attributes: [enable-patchelf]
